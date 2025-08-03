@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           onPrimary: Colors.white,
         )
       ),
-      home: const OnboardingScreen(),
+      home: const OnboardingScreen()
     );
   }
 }

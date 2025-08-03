@@ -23,7 +23,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   title: 'Bienvenidos a Weather APP.', 
   subtitle: 'Tu nuevo compañero para conocer el clima, estés donde estés.', 
   image: const AssetImage('assets/weather_onboarding.png'), 
-  backgroundColor: const Color.fromRGBO(74, 144, 226, 1.0), 
+  backgroundColor: const Color.fromRGBO(74, 144, 226, 1.0).withAlpha(60), 
   titleColor: Color.fromRGBO(51, 51, 51, 1), 
   subtitleColor: Color.fromRGBO(51, 51, 51, 1),
   background: Lottie.network('https://assets2.lottiefiles.com/packages/lf20_bq485nmñ.json'),
